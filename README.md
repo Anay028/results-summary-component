@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://results-summary-component-anay028.vercel.app/](https://https://results-summary-component-anay028.vercel.app//)
+- Live Site URL: [https://results-summary-component-anay028.vercel.app/](https://results-summary-component-anay028.vercel.app/)
 
 ## My process
 
