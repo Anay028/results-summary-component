@@ -22,6 +22,32 @@
 
     }
 
+    @media screen and (max-width: 767px) {
+      .result {
+        width: 100% !important;
+      } 
+
+      .summary {
+        width: 100% !important;
+      }
+    }
+
+    table {
+      border-collapse: separate;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90% !important;
+    }
+
+    td {
+      font-size: 15px;
+      padding: 15px;
+    }
+    
+
+    tr td:last-child {
+      text-align: right !important;
+    }
 
 
 
@@ -30,9 +56,7 @@
   src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 
-td {
-  padding: 15px;
-}
+
 
     .result {
       background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -48,6 +72,7 @@ td {
     }
 
     .summary {
+      font-size: 18px;
       border-radius: 20px;
       background-color: hsl(0, 0%, 100%);
       /* background-color: black; */
@@ -66,7 +91,7 @@ td {
   button {
     border-collapse: separate; 
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    width: 250px;
+    width: 100%;
     border: none;
     border-radius: 25px;
     padding: 7.5px;
@@ -88,13 +113,22 @@ td {
   color: hsla(234, 85%, 45%);
 }
 
+
+table {
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  <div class="container text-center result-summary ">
+  <div class="container result-summary ">
     <div class="row align-items-start">
       <div class="col col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 col-12">
         <div class="result container text-center ">
@@ -102,7 +136,7 @@ td {
           <p style="color: hsl(221, 100%, 96%); font-size: 20px;">Your Result</p>
          <br>
           <div class="marks">
-        <strong class="text-white" style="font-size: 50px;">76</strong>
+        <strong class="text-white" style="font-size: 50px; vertical-align: center;">76</strong>
         <br>
        <p style="color: hsl(241, 100%, 89%)"> of 100</p>
       </div>
@@ -115,11 +149,11 @@ td {
       </div>
       <div class="col col-lg-6 col-xl-6 col-md-6 col-sm-12 col-s-12 col-12">
         <br>
-        <div class="summary container text-center">
-        <strong  style="font-family: HankenGrotesk; margin-right: 100%;">Summary</strong>
+        <div class="summary container">
+        <strong  style="font-family: HankenGrotesk; margin-left: 15px;">Summary</strong>
         <br>
 
-        <table>
+        <table class="align-items-center">
           <tr>
             <td><span class="red">        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#F55" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"/></svg>
               Reaction</span></td>
