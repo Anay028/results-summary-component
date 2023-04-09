@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://results-summary-component-anay028.vercel.app/](https://results-summary-component-anay028.vercel.app/)
+- Live Site URL: [https://anay028.github.io/results-summary-component/](https://anay028.github.io/results-summary-component/)
 
 ## My process
 
@@ -60,7 +60,7 @@ I learned lot of things like how to add gradient to backgrounds which was very u
 
 ## Author
 
-- Website - [Anay](https://anay.vercel.app)
+- Website - [Anay](https://anay.is-a.dev/)
 - Frontend Mentor - [@Anay028](https://www.frontendmentor.io/profile/Anay028)
 
 
