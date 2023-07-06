@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://anay028.github.io/results-summary-component/](https://anay028.github.io/results-summary-component/)
+- Live Site URL: [https://anay-208.github.io/results-summary-component/](https://anay-208.github.io/results-summary-component/)
 
 ## My process
 
